@@ -39,9 +39,10 @@ const Login = () => {
 
            <div className='checkboxpassword'>
             <div className="checkboxsection">
-            <input style={{height:"20px"}} type="checkbox" /> <p>Remeber me?</p>
+            <input style={{height:"20px"}} type="checkbox" /><p > Remeber me?</p>
             </div>
-           <span style={{marginRight:"100px"}}>Forget Password?</span> 
+            <div className="pass"><span style={{marginRight:"100px"}}>Forget Password?</span> </div>
+           
            </div>
          
 

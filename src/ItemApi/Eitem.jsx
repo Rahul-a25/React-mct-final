@@ -1,11 +1,15 @@
 import React, { useEffect,useState } from 'react'
+import { action1 } from '../component/redux/action/action';
+import { useDispatch,useSelector } from 'react-redux';
 
 const Eitem = () => {
+    const dispatch=useDispatch()
     const [Item,setItem]=useState([])
     useEffect(() => {
         fetch("https://fakestoreapi.com/products/category/electronics")
           .then((res) => res.json())
           .then((data) => setItem(data));
+          dispatch(action1)
         
       }, []);
   return (

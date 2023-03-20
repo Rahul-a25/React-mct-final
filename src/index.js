@@ -5,16 +5,21 @@ import App from './App';
 import { createContext } from 'react';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
+import {store} from './store'
+import { Provider } from 'react-redux';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const Firstname=createContext();
 root.render(
   
 <BrowserRouter>
+<Provider store={store}>
   <Firstname.Provider value={"Contact Component is Under the Development"}>
   <App/>
   </Firstname.Provider>
+  </Provider>
  </BrowserRouter>
+ 
 );
 export {Firstname}
 

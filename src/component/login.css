@@ -32,16 +32,17 @@
     font-size: 20px;
     margin-top: 30px;
 } 
-.leftmaincontent .checkboxpassword{
+ .checkboxpassword{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 .leftmaincontent .checkboxsection{
     width: 117px;
     display: flex;
-    /* justify-content:space-between ; */
-    align-items: center;
+    justify-content:space-between ;
+    /* align-items: center; */
 }
 .leftmaincontent .btn{
     display: flex;

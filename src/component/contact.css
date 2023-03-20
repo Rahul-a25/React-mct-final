@@ -23,6 +23,6 @@ a:hover{
 .logoutwala{
     border-radius: 10px;
 }
-.logoutwala Link:hover{
+.hover .logoutwala:hover{
   background-color: blue;
 }
