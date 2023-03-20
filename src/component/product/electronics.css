@@ -1,0 +1,38 @@
+.mainpart{
+    width: 90%;
+    height: 500px;
+    /* border: 2px solid red; */
+    margin: 70px 50px;
+    margin-left: 80px;
+    box-shadow: 0px 10px 20px gray;
+}
+.mainpart .nav{
+    width: 96.-1%;
+   
+    padding: 20px;
+    background-color: rgb(90, 192, 90);
+}
+.body{
+    width: 1300px;
+    height: 350px;
+    
+    margin: 50px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width:30% ;
+}
+.img img{
+    width: 350px;
+    height: 350px;
+}
+.content{
+    margin-left: 30px;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}

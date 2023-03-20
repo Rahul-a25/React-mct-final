@@ -1,0 +1,93 @@
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.leftmain{
+    width: 50%;
+    height: 750px;
+    
+}
+.leftmaincontent{
+    /* border: 2px solid black; */
+    width: 90%;
+    margin: 60px 70px;
+}
+.leftmaincontent h1{
+    font-size: 40px;
+}
+.leftmaincontent .inputsection input{
+    width: 600px;
+    padding: 13px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+.leftmaincontent .inputsection label{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+} 
+.leftmaincontent .checkboxpassword{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftmaincontent .checkboxsection{
+    width: 117px;
+    display: flex;
+    /* justify-content:space-between ; */
+    align-items: center;
+}
+.leftmaincontent .btn{
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    margin: 10px 0px;
+    /* margin-right: 100px; */
+}
+.leftmaincontent .btn button{
+    /* margin: 0px 30px; */
+    width: 270px;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.leftmaincontent .btn button:hover{
+    cursor: pointer;
+}
+.leftmaincontent .btn .first{
+    color: white;
+    background-color:#f11e68;
+    margin-right: 60px;
+    border: none;
+}
+.leftmaincontent .btn .second{
+    color: #f11e68;
+    background-color: white;
+    border: 1px solid #f11e68;
+}
+.leftmaincontent .lowersection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px;
+    margin-right: 70px;
+    
+}
+
+.rightmain{
+    width: 50%;
+   height: 750px;
+   
+}
+.rightmain img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,22 @@
+.ulwala{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 20px;
+    background-color: black;
+    
+}
+.ulwala li{
+    margin-right: 100px;
+    font-size: 20px;
+    font-weight: 600;
+   
+    color: white;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(91, 91, 224);
+}
