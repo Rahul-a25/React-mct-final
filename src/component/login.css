@@ -92,3 +92,8 @@
     width: 100%;
     height: 100%;
 }
+.out:hover{
+    background-color: rgb(97, 97, 232);
+    color: white;
+    cursor: pointer;
+}

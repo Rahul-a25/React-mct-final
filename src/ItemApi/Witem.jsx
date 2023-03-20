@@ -1,6 +1,6 @@
 import React, { useEffect,useState } from 'react'
 import { action4 } from '../component/redux/action/action';
-import { useDispatch } from 'react-redux';
+import { useDispatch ,useSelector} from 'react-redux';
 
 const Eitem = () => {
     const dispatch=useDispatch()
